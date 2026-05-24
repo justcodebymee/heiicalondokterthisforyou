@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      width:100%;
+      height:100vh;
+      overflow:hidden;
+      background:linear-gradient(135deg,#ffdce8,#ffeef4,#dff8ff);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+    }
+
+    .bg-circle{
+      position:absolute;
+      border-radius:50%;
+      background:rgba(255,255,255,0.4);
+      animation:float 6s ease-in-out infinite;
+    }
+
+    .bg-circle:nth-child(1){
+      width:200px;
+      height:200px;
+      top:-50px;
+      left:-40px;
+    }
+
+    .bg-circle:nth-child(2){
+      width:140px;
+      height:140px;
+      bottom:-30px;
+      right:50px;
+    }
+
+    @keyframes float{
+      0%,100%{
+        transform:translateY(0);
+      }
+      50%{
+        transform:translateY(-15px);
+      }
+    }
+
+    .container{
+      width:94%;
+      height:92vh;
+      background:rgba(255,255,255,0.25);
+      backdrop-filter:blur(12px);
+      border-radius:35px;
+      padding:25px 35px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    h1{
+      font-size:4.5rem;
+      color:#ff5f95;
+      margin-bottom:5px;
+      line-height:1;
+    }
+
+    h2{
+      color:#5f6c7b;
+      font-weight:400;
+      margin-bottom:18px;
+      font-size:1rem;
+    }
+
+    p{
+      max-width:850px;
+      font-size:0.9rem;
+      line-height:1.7;
+      color:#444;
+    }
+
+    .highlight{
+      color:#ff4f88;
+      font-weight:600;
+    }
+
+    .quote{
+      margin-top:15px;
+      font-style:italic;
+      color:#6d7b8a;
+      font-size:0.9rem;
+    }
+
+    .emoji{
+      margin-top:10px;
+      font-size:1.5rem;
+    }
+
+    @media(max-width:768px){
+
+      body{
+        overflow:auto;
+      }
+
+      .container{
+        height:auto;
+        margin:20px 0;
+        padding:20px;
+      }
+
+      h1{
+        font-size:3rem;
+      }
+
+      p{
+        font-size:0.85rem;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="bg-circle"></div>
+  <div class="bg-circle"></div>
+
+  <div class="container">
+
+    <h1>Happy Birthday 🎀</h1>
+
+    <h2>to the future veterinarian girl</h2>
+
+    <p>
+      jadiii hari ini officially dunia jadi lebih lucu karena kamu ulang tahun 😤💗
+
+      <br><br>
+
+      semoga cewe yang suka biology,
+      chemistry,
+      english,
+      dan bule ini 😭
+      bisa dapetin semua hal yang dia mau pelan-pelan.
+
+      <br><br>
+
+      semoga someday kamu beneran jadi dokter hewan keren
+      yang disayang semua hewan,
+      terus kalau ada kucing sakit dia langsung nyaman cuma gara-gara liat kamu 🐱
+
+      <br><br>
+
+      honestly kamu tuh punya vibes anak pinter yang aesthetic banget.
+      kayak tipe orang yang bisa ngomongin science tapi tetap lucu dan manis di saat yang sama.
+
+      <br><br>
+
+      dan semoga walaupun nanti tugas numpuk,
+      praktikum bikin capek,
+      atau hidup lagi ribet,
+      kamu tetap jadi orang yang selalu bikin suasana jadi nyaman.
+
+      <br><br>
+
+      <span class="highlight">
+        you’re literally beauty + brain + science + cute energy.
+      </span>
+
+    </p>
+
+    <div class="quote">
+      “smart girls are honestly the prettiest.” 🧬
+    </div>
+
+    <div class="emoji">
+      🐰🧪💗
+    </div>
+
+  </div>
+
+</body>
+</html>
